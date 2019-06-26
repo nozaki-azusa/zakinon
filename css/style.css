@@ -1,0 +1,20 @@
+body{
+	background: #f6f4f4;
+
+}
+
+.all{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.figure{
+	width:178px;
+	height:178px;
+	background: #000000;
+	background-image: url("../images/neko.jpg");
+	background-size: cover;
+	border-radius: 100%;
+}
