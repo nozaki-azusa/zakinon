@@ -8,6 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-flow: column;
+    margin: 120px;
 }
 
 .figure{
@@ -17,4 +18,12 @@ body{
 	background-image: url("../images/neko.jpg");
 	background-size: cover;
 	border-radius: 100%;
+	border: 8px solid #ff9090;
+}
+
+.title{
+	font-weight: bold;
+	font-size: 32px;
+	margin: 10px;
+
 }
