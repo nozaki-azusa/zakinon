@@ -3,6 +3,12 @@ body{
 
 }
 
+.wrapper{
+	width:800px;
+	margin: 0 auto;
+
+}
+
 .all{
 	display: flex;
     justify-content: center;
@@ -26,4 +32,20 @@ body{
 	font-size: 32px;
 	margin: 10px;
 
+}
+
+.contents{
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+
+.box{
+	width:188px;
+	height:188px;
+	border-radius: 10%;
+	background: #FFFFFF;
+	margin: 0px 0px 16px 0px;
+	box-shadow:0px 0px 3px 0px #0003;
 }
