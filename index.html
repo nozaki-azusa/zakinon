@@ -8,6 +8,9 @@
 	</head>
 	<body>
 	<div class="wrapper">	
+
+		<div class="menu" id="menu"></div>
+			<div class="menu_wrapper" id="menu_wrapper"></div>
 		<div class="container">
 			<div class="all">
 				<div class="figure"></div>
@@ -47,6 +50,20 @@
 			</div>
 		</footer>
 	</div>
+	<script>
+		const menuButton = document.getElementById('menu')
+		const menuWrapper = document.getElementById('menu_wrapper')
+		console.log(menuButton)
+		menuButton.addEventListener('click', function() {menuWrapper.classList.add("show");
+  			console.log(menuWrapper.classList);
+  			console.log(menuWrapper)
+		})
+		menuWrapper.addEventListener('click', function() {
+			menuWrapper.classList.remove("show");
+			console.log(menuWrapper.classList);
+		})
+
+</script>
 
 	</body>
 </html>
